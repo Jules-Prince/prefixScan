@@ -1,1 +1,1 @@
-To launch the program : python3 -W ignore main.py ${SIZE_OF_ARRAY}
+To launch the program : python3 -W ignore main.py ${SIZE_OF_ARRAY} 
