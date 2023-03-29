@@ -1,8 +1,10 @@
+from PrefixScan import PrefixScan
 
-class prefixScan_CPU(object):
+
+class PrefixScan_CPU(PrefixScan):
     
     def __init__(self, array, m, n):
-        self.array, self.m, self.n = array, m, n
+        super().__init__( array, m, n)
         self.__upSweep()
         self.__downSweep()
 
